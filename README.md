@@ -41,6 +41,16 @@ Then add `LICENSE.txt` and `ThirdPartyNotices.txt` to each output directory and
 tar it so that a single directory sits at the root — the install script extracts
 with `--strip-components 1`.
 
+When packing on macOS, keep the metadata out:
+
+```bash
+COPYFILE_DISABLE=1 tar --no-mac-metadata --no-xattrs -czf bcode-reh-linux-x64.tar.gz vscode-reh-linux-x64
+```
+
+Without those flags the archive picks up an `._` companion for every file —
+20k of them, 80MB — and GNU tar exits non-zero on the trailing metadata, which
+the install script reads as a failed extraction even though the files did land.
+
 ## License
 
 MIT, inherited from Visual Studio Code. `LICENSE.txt` and
