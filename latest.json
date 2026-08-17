@@ -1,7 +1,7 @@
 {
-  "version": "1.132.0-bundle.8",
-  "date": "2026-08-17T17:46:05+09:00",
-  "revision": "acc2d7d6c3286d6ed57e97a704aea32628cf4c61",
-  "artifact": "BundleCode-darwin-arm64-v1.132.0-bundle.8",
-  "url": "https://github.com/himeno/bundlecode-server/releases/download/v1.132.0-bundle.8/BundleCode-darwin-arm64-v1.132.0-bundle.8.dmg"
+  "version": "1.132.0-bundle.10",
+  "date": "2026-08-17T23:50:02+09:00",
+  "revision": "f230c64da05c11771d6eadc41f77d27ade542dfc",
+  "artifact": "BundleCode-darwin-arm64-v1.132.0-bundle.10",
+  "url": "https://github.com/himeno/bundlecode-server/releases/download/v1.132.0-bundle.10/BundleCode-darwin-arm64-v1.132.0-bundle.10.dmg"
 }
